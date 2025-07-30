@@ -164,13 +164,26 @@ docker run -d -p 3000:3000 --name express_app express_app:v0.0.1
 App runs inside Docker
 Accessible via: http://localhost:3000
 
+## 🧠 Concepts Covered
+Project initialization with Node.js and npm
+
+* Dependency management with exact package versions
+
+* Implementation of a basic Express.js server and routes
+
+* Middleware integration using body-parser
+
+* Script execution via npm start
+
+* Dockerfile creation and containerization of the app
+
+* Image building and container execution with Docker
+
+* Application deployment basics using Docker
+
 ## 🧑‍💻 Author
 This project is part of my learning journey with Express.js.
 
 Created by Hicham Bouzalim – GitHub Profile
 <a href="https://github.com/HichamBouzalim/">Hicham Bouzalim</a>
-
-If you’d like, I can also generate the entire README.md file for you or send this section as a separate file. Just let me know!
-
-And if you want to document the next part of your course as well — feel free to send it.
 
