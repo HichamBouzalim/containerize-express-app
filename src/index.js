@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 
 // GET request for the homepage – just returns a text message
 app.get('/', (req, res) => {
-  res.send('Welcome to a Dockerized Express App by Hicham Bouzalim – Full Stack Developer.!');
+  res.send('Welcome! Built by Hicham Bouzalim. Visit: github.com/hichambouzalim');
 });
 
 //------------------------------------------------------------------
