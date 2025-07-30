@@ -119,6 +119,50 @@ curl http://localhost:3000
 ```
 You should see:
 
-````
+```
 Hello Worls
+
+```
+
+
+
+
+## 🐳 Dockerize the App
+1. Create Dockerfile in the root directory:
+Dockerfile
+
+```
+FROM node:22
+
+WORKDIR /app
+
+# Copy the package.json and package-lock.json
+COPY package*.json .
+
+# Install the dependencies
+RUN npm ci
+
+# Copy the source code of our app
+COPY src/index.js index.js
+
+# Expose the application port
+EXPOSE 3000
+
+# Start application
+CMD [ "node", "index. js" ] #Optionally, if your code is in a subfolder (like src/), adjust the paths accordingly and update the CMD.
+```
+
+## 🛠️ Build Docker Image
+```
+docker build -t express_app:v0.0.1 .
+```
+## ▶️ Run Docker Container
+
+```
+docker run -d -p 3000:3000 --name express_app express_app:v0.0.1
+```
+App runs inside Docker
+Accessible via: http://localhost:3000
+
+
 
