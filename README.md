@@ -120,7 +120,7 @@ curl http://localhost:3000
 You should see:
 
 ```
-Welcome to a Dockerized Express App by Hicham Bouzalim – Full Stack Developer.!
+Welcome! Built by Hicham Bouzalim. Visit: github.com/hichambouzalim
 
 ```
 
