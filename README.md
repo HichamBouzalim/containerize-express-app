@@ -184,6 +184,6 @@ Project initialization with Node.js and npm
 ## 🧑‍💻 Author
 This project is part of my learning journey with Express.js.
 
-Created by Hicham Bouzalim – GitHub Profile
+Created by **Hicham Bouzalim** – GitHub Profile
 <a href="https://github.com/HichamBouzalim/">Hicham Bouzalim</a>
 
