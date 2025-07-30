@@ -1,5 +1,5 @@
-# Node.js-app
-# 🚀 Express.js Hello World Application
+
+# 🚀 Node.js Express API with Docker
 
 This project is a beginner-friendly introduction to building web applications using [Express.js](https://expressjs.com/) and Node.js. You’ll learn how to:
 
@@ -120,7 +120,7 @@ curl http://localhost:3000
 You should see:
 
 ```
-Hello Worls
+Welcome! Built by Hicham Bouzalim. Visit: github.com/hichambouzalim
 
 ```
 
